@@ -1,0 +1,27 @@
+@use '../utils/variable' as *;
+
+@media screen and (max-width: 62.5rem) {
+  .navigation {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 62.51rem) and (max-width: 81.25rem) {
+  .header,
+  .navigation__menu-wrapper,
+  .navigation__sub-menu-wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 81.26rem) {
+  .header,
+  .navigation__menu-wrapper,
+  .navigation__sub-menu-wrapper {
+    width: 130rem;
+    margin: 0 auto;
+  }
+}
+
+
